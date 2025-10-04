@@ -30,4 +30,7 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+# Ignore sensitive config files
+UserService/src/main/resources/application.yml
+activityService/src/main/resources/application.yml
+
