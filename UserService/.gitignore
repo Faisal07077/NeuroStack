@@ -30,7 +30,7 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-# Ignore sensitive config files
-UserService/src/main/resources/application.yml
-activityService/src/main/resources/application.yml
+.vscode/
 
+# ✅ Ignore sensitive config files inside this microservice
+src/main/resources/application.yml
